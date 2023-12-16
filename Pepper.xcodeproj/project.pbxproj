@@ -10,7 +10,7 @@
 		6502B43A2B23103B007FA7F3 /* SpeechSynthIntService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502B4392B23103B007FA7F3 /* SpeechSynthIntService.swift */; };
 		6502B43C2B231062007FA7F3 /* ConvAgentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502B43B2B231062007FA7F3 /* ConvAgentService.swift */; };
 		65188AA02B2C83D20061E0CF /* PressActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65188A9F2B2C83D20061E0CF /* PressActions.swift */; };
-		65C574BF2AC718E4006AEBB8 /* TestApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 65C574BE2AC718E4006AEBB8 /* TestApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65C574BF2AC718E4006AEBB8 /* Pepper Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 65C574BE2AC718E4006AEBB8 /* Pepper Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		65C574C42AC718E4006AEBB8 /* TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C574C32AC718E4006AEBB8 /* TestAppApp.swift */; };
 		65C574C62AC718E4006AEBB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C574C52AC718E4006AEBB8 /* ContentView.swift */; };
 		65C574C82AC718E5006AEBB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C574C72AC718E5006AEBB8 /* Assets.xcassets */; };
@@ -54,7 +54,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				65C574BF2AC718E4006AEBB8 /* TestApp Watch App.app in Embed Watch Content */,
+				65C574BF2AC718E4006AEBB8 /* Pepper Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,18 +65,18 @@
 		6502B4392B23103B007FA7F3 /* SpeechSynthIntService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthIntService.swift; sourceTree = "<group>"; };
 		6502B43B2B231062007FA7F3 /* ConvAgentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvAgentService.swift; sourceTree = "<group>"; };
 		65188A9F2B2C83D20061E0CF /* PressActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressActions.swift; sourceTree = "<group>"; };
-		65C574B82AC718E4006AEBB8 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		65C574BE2AC718E4006AEBB8 /* TestApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C574B82AC718E4006AEBB8 /* Pepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C574BE2AC718E4006AEBB8 /* Pepper Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pepper Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C574C32AC718E4006AEBB8 /* TestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppApp.swift; sourceTree = "<group>"; };
 		65C574C52AC718E4006AEBB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65C574C72AC718E5006AEBB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C574CA2AC718E5006AEBB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		65C574D02AC718E5006AEBB8 /* TestApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C574D02AC718E5006AEBB8 /* Pepper Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pepper Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C574D42AC718E5006AEBB8 /* TestApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp_Watch_AppTests.swift; sourceTree = "<group>"; };
-		65C574DA2AC718E6006AEBB8 /* TestApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C574DA2AC718E6006AEBB8 /* Pepper Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pepper Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C574DE2AC718E6006AEBB8 /* TestApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		65C574E02AC718E6006AEBB8 /* TestApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		65D114C02AC75CE100EA243B /* TestApp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TestApp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		65D114C02AC75CE100EA243B /* Pepper-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pepper-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		65D189BF2B2DC15D0097DA88 /* SpeechSynthExtService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthExtService.swift; sourceTree = "<group>"; };
 		65D189C12B2DD5D40097DA88 /* ChatBubbles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbles.swift; sourceTree = "<group>"; };
 		65ED09802AD6B67000FD30B0 /* TestApp Watch AppDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TestApp Watch AppDebug.entitlements"; sourceTree = "<group>"; };
@@ -111,9 +111,9 @@
 		65C574B12AC718E3006AEBB8 = {
 			isa = PBXGroup;
 			children = (
-				65C574C22AC718E4006AEBB8 /* TestApp Watch App */,
-				65C574D32AC718E5006AEBB8 /* TestApp Watch AppTests */,
-				65C574DD2AC718E6006AEBB8 /* TestApp Watch AppUITests */,
+				65C574C22AC718E4006AEBB8 /* DRS WatchOS Client */,
+				65C574D32AC718E5006AEBB8 /* DRS WatchOS Client AppTests */,
+				65C574DD2AC718E6006AEBB8 /* DRS WatchOS Client AppUITests */,
 				65C574B92AC718E4006AEBB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,19 +121,19 @@
 		65C574B92AC718E4006AEBB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65C574B82AC718E4006AEBB8 /* TestApp.app */,
-				65C574BE2AC718E4006AEBB8 /* TestApp Watch App.app */,
-				65C574D02AC718E5006AEBB8 /* TestApp Watch AppTests.xctest */,
-				65C574DA2AC718E6006AEBB8 /* TestApp Watch AppUITests.xctest */,
+				65C574B82AC718E4006AEBB8 /* Pepper.app */,
+				65C574BE2AC718E4006AEBB8 /* Pepper Watch App.app */,
+				65C574D02AC718E5006AEBB8 /* Pepper Watch AppTests.xctest */,
+				65C574DA2AC718E6006AEBB8 /* Pepper Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65C574C22AC718E4006AEBB8 /* TestApp Watch App */ = {
+		65C574C22AC718E4006AEBB8 /* DRS WatchOS Client */ = {
 			isa = PBXGroup;
 			children = (
 				65ED09802AD6B67000FD30B0 /* TestApp Watch AppDebug.entitlements */,
-				65D114C02AC75CE100EA243B /* TestApp-Watch-App-Info.plist */,
+				65D114C02AC75CE100EA243B /* Pepper-Watch-App-Info.plist */,
 				65C574C32AC718E4006AEBB8 /* TestAppApp.swift */,
 				65C574C52AC718E4006AEBB8 /* ContentView.swift */,
 				65C574C72AC718E5006AEBB8 /* Assets.xcassets */,
@@ -145,7 +145,7 @@
 				65D189BF2B2DC15D0097DA88 /* SpeechSynthExtService.swift */,
 				65D189C12B2DD5D40097DA88 /* ChatBubbles.swift */,
 			);
-			path = "TestApp Watch App";
+			path = "DRS WatchOS Client";
 			sourceTree = "<group>";
 		};
 		65C574C92AC718E5006AEBB8 /* Preview Content */ = {
@@ -156,29 +156,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		65C574D32AC718E5006AEBB8 /* TestApp Watch AppTests */ = {
+		65C574D32AC718E5006AEBB8 /* DRS WatchOS Client AppTests */ = {
 			isa = PBXGroup;
 			children = (
 				65C574D42AC718E5006AEBB8 /* TestApp_Watch_AppTests.swift */,
 			);
-			path = "TestApp Watch AppTests";
+			path = "DRS WatchOS Client AppTests";
 			sourceTree = "<group>";
 		};
-		65C574DD2AC718E6006AEBB8 /* TestApp Watch AppUITests */ = {
+		65C574DD2AC718E6006AEBB8 /* DRS WatchOS Client AppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				65C574DE2AC718E6006AEBB8 /* TestApp_Watch_AppUITests.swift */,
 				65C574E02AC718E6006AEBB8 /* TestApp_Watch_AppUITestsLaunchTests.swift */,
 			);
-			path = "TestApp Watch AppUITests";
+			path = "DRS WatchOS Client AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65C574B72AC718E4006AEBB8 /* TestApp */ = {
+		65C574B72AC718E4006AEBB8 /* Pepper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65C574E82AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildConfigurationList = 65C574E82AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "Pepper" */;
 			buildPhases = (
 				65C574B62AC718E4006AEBB8 /* Resources */,
 				65C574E72AC718E6006AEBB8 /* Embed Watch Content */,
@@ -188,14 +188,14 @@
 			dependencies = (
 				65C574C12AC718E4006AEBB8 /* PBXTargetDependency */,
 			);
-			name = TestApp;
+			name = Pepper;
 			productName = TestApp;
-			productReference = 65C574B82AC718E4006AEBB8 /* TestApp.app */;
+			productReference = 65C574B82AC718E4006AEBB8 /* Pepper.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		65C574BD2AC718E4006AEBB8 /* TestApp Watch App */ = {
+		65C574BD2AC718E4006AEBB8 /* Pepper Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65C574E42AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "TestApp Watch App" */;
+			buildConfigurationList = 65C574E42AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "Pepper Watch App" */;
 			buildPhases = (
 				65C574BA2AC718E4006AEBB8 /* Sources */,
 				65C574BB2AC718E4006AEBB8 /* Frameworks */,
@@ -205,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = "TestApp Watch App";
+			name = "Pepper Watch App";
 			productName = "TestApp Watch App";
-			productReference = 65C574BE2AC718E4006AEBB8 /* TestApp Watch App.app */;
+			productReference = 65C574BE2AC718E4006AEBB8 /* Pepper Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65C574CF2AC718E5006AEBB8 /* TestApp Watch AppTests */ = {
+		65C574CF2AC718E5006AEBB8 /* Pepper Watch AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65C574EB2AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "TestApp Watch AppTests" */;
+			buildConfigurationList = 65C574EB2AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "Pepper Watch AppTests" */;
 			buildPhases = (
 				65C574CC2AC718E5006AEBB8 /* Sources */,
 				65C574CD2AC718E5006AEBB8 /* Frameworks */,
@@ -223,14 +223,14 @@
 			dependencies = (
 				65C574D22AC718E5006AEBB8 /* PBXTargetDependency */,
 			);
-			name = "TestApp Watch AppTests";
+			name = "Pepper Watch AppTests";
 			productName = "TestApp Watch AppTests";
-			productReference = 65C574D02AC718E5006AEBB8 /* TestApp Watch AppTests.xctest */;
+			productReference = 65C574D02AC718E5006AEBB8 /* Pepper Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65C574D92AC718E6006AEBB8 /* TestApp Watch AppUITests */ = {
+		65C574D92AC718E6006AEBB8 /* Pepper Watch AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65C574EE2AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "TestApp Watch AppUITests" */;
+			buildConfigurationList = 65C574EE2AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "Pepper Watch AppUITests" */;
 			buildPhases = (
 				65C574D62AC718E6006AEBB8 /* Sources */,
 				65C574D72AC718E6006AEBB8 /* Frameworks */,
@@ -241,9 +241,9 @@
 			dependencies = (
 				65C574DC2AC718E6006AEBB8 /* PBXTargetDependency */,
 			);
-			name = "TestApp Watch AppUITests";
+			name = "Pepper Watch AppUITests";
 			productName = "TestApp Watch AppUITests";
-			productReference = 65C574DA2AC718E6006AEBB8 /* TestApp Watch AppUITests.xctest */;
+			productReference = 65C574DA2AC718E6006AEBB8 /* Pepper Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -272,7 +272,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65C574B52AC718E3006AEBB8 /* Build configuration list for PBXProject "TestApp" */;
+			buildConfigurationList = 65C574B52AC718E3006AEBB8 /* Build configuration list for PBXProject "Pepper" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -285,10 +285,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65C574B72AC718E4006AEBB8 /* TestApp */,
-				65C574BD2AC718E4006AEBB8 /* TestApp Watch App */,
-				65C574CF2AC718E5006AEBB8 /* TestApp Watch AppTests */,
-				65C574D92AC718E6006AEBB8 /* TestApp Watch AppUITests */,
+				65C574B72AC718E4006AEBB8 /* Pepper */,
+				65C574BD2AC718E4006AEBB8 /* Pepper Watch App */,
+				65C574CF2AC718E5006AEBB8 /* Pepper Watch AppTests */,
+				65C574D92AC718E6006AEBB8 /* Pepper Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -364,17 +364,17 @@
 /* Begin PBXTargetDependency section */
 		65C574C12AC718E4006AEBB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65C574BD2AC718E4006AEBB8 /* TestApp Watch App */;
+			target = 65C574BD2AC718E4006AEBB8 /* Pepper Watch App */;
 			targetProxy = 65C574C02AC718E4006AEBB8 /* PBXContainerItemProxy */;
 		};
 		65C574D22AC718E5006AEBB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65C574BD2AC718E4006AEBB8 /* TestApp Watch App */;
+			target = 65C574BD2AC718E4006AEBB8 /* Pepper Watch App */;
 			targetProxy = 65C574D12AC718E5006AEBB8 /* PBXContainerItemProxy */;
 		};
 		65C574DC2AC718E6006AEBB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65C574BD2AC718E4006AEBB8 /* TestApp Watch App */;
+			target = 65C574BD2AC718E4006AEBB8 /* Pepper Watch App */;
 			targetProxy = 65C574DB2AC718E6006AEBB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -507,7 +507,7 @@
 				DEVELOPMENT_TEAM = U66B5L4S6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TestApp-Watch-App-Info.plist";
+				INFOPLIST_FILE = "Pepper-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TestApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -538,7 +538,7 @@
 				DEVELOPMENT_TEAM = U66B5L4S6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TestApp-Watch-App-Info.plist";
+				INFOPLIST_FILE = "Pepper-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TestApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -608,7 +608,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestApp Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pepper Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pepper Watch App";
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
@@ -629,7 +629,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestApp Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pepper Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pepper Watch App";
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
@@ -679,7 +679,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65C574B52AC718E3006AEBB8 /* Build configuration list for PBXProject "TestApp" */ = {
+		65C574B52AC718E3006AEBB8 /* Build configuration list for PBXProject "Pepper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65C574E22AC718E6006AEBB8 /* Debug */,
@@ -688,7 +688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C574E42AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "TestApp Watch App" */ = {
+		65C574E42AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "Pepper Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65C574E52AC718E6006AEBB8 /* Debug */,
@@ -697,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C574E82AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+		65C574E82AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "Pepper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65C574E92AC718E6006AEBB8 /* Debug */,
@@ -706,7 +706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C574EB2AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "TestApp Watch AppTests" */ = {
+		65C574EB2AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "Pepper Watch AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65C574EC2AC718E6006AEBB8 /* Debug */,
@@ -715,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C574EE2AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "TestApp Watch AppUITests" */ = {
+		65C574EE2AC718E6006AEBB8 /* Build configuration list for PBXNativeTarget "Pepper Watch AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65C574EF2AC718E6006AEBB8 /* Debug */,
