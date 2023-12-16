@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6502B43A2B23103B007FA7F3 /* SpeechSynthIntService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502B4392B23103B007FA7F3 /* SpeechSynthIntService.swift */; };
+		6502B43C2B231062007FA7F3 /* ConvAgentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502B43B2B231062007FA7F3 /* ConvAgentService.swift */; };
+		65188AA02B2C83D20061E0CF /* PressActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65188A9F2B2C83D20061E0CF /* PressActions.swift */; };
 		65C574BF2AC718E4006AEBB8 /* TestApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 65C574BE2AC718E4006AEBB8 /* TestApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		65C574C42AC718E4006AEBB8 /* TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C574C32AC718E4006AEBB8 /* TestAppApp.swift */; };
 		65C574C62AC718E4006AEBB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C574C52AC718E4006AEBB8 /* ContentView.swift */; };
@@ -15,6 +18,9 @@
 		65C574D52AC718E5006AEBB8 /* TestApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C574D42AC718E5006AEBB8 /* TestApp_Watch_AppTests.swift */; };
 		65C574DF2AC718E6006AEBB8 /* TestApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C574DE2AC718E6006AEBB8 /* TestApp_Watch_AppUITests.swift */; };
 		65C574E12AC718E6006AEBB8 /* TestApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C574E02AC718E6006AEBB8 /* TestApp_Watch_AppUITestsLaunchTests.swift */; };
+		65D189C02B2DC15D0097DA88 /* SpeechSynthExtService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D189BF2B2DC15D0097DA88 /* SpeechSynthExtService.swift */; };
+		65D189C22B2DD5D40097DA88 /* ChatBubbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D189C12B2DD5D40097DA88 /* ChatBubbles.swift */; };
+		65FDFE032B2341AD00CDF5C0 /* SpeechRecService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FDFE022B2341AD00CDF5C0 /* SpeechRecService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6502B4392B23103B007FA7F3 /* SpeechSynthIntService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthIntService.swift; sourceTree = "<group>"; };
+		6502B43B2B231062007FA7F3 /* ConvAgentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvAgentService.swift; sourceTree = "<group>"; };
+		65188A9F2B2C83D20061E0CF /* PressActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressActions.swift; sourceTree = "<group>"; };
 		65C574B82AC718E4006AEBB8 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C574BE2AC718E4006AEBB8 /* TestApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C574C32AC718E4006AEBB8 /* TestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppApp.swift; sourceTree = "<group>"; };
@@ -67,6 +76,11 @@
 		65C574DA2AC718E6006AEBB8 /* TestApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C574DE2AC718E6006AEBB8 /* TestApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		65C574E02AC718E6006AEBB8 /* TestApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65D114C02AC75CE100EA243B /* TestApp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TestApp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		65D189BF2B2DC15D0097DA88 /* SpeechSynthExtService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthExtService.swift; sourceTree = "<group>"; };
+		65D189C12B2DD5D40097DA88 /* ChatBubbles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbles.swift; sourceTree = "<group>"; };
+		65ED09802AD6B67000FD30B0 /* TestApp Watch AppDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TestApp Watch AppDebug.entitlements"; sourceTree = "<group>"; };
+		65FDFE022B2341AD00CDF5C0 /* SpeechRecService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +132,18 @@
 		65C574C22AC718E4006AEBB8 /* TestApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				65ED09802AD6B67000FD30B0 /* TestApp Watch AppDebug.entitlements */,
+				65D114C02AC75CE100EA243B /* TestApp-Watch-App-Info.plist */,
 				65C574C32AC718E4006AEBB8 /* TestAppApp.swift */,
 				65C574C52AC718E4006AEBB8 /* ContentView.swift */,
 				65C574C72AC718E5006AEBB8 /* Assets.xcassets */,
 				65C574C92AC718E5006AEBB8 /* Preview Content */,
+				6502B4392B23103B007FA7F3 /* SpeechSynthIntService.swift */,
+				65FDFE022B2341AD00CDF5C0 /* SpeechRecService.swift */,
+				6502B43B2B231062007FA7F3 /* ConvAgentService.swift */,
+				65188A9F2B2C83D20061E0CF /* PressActions.swift */,
+				65D189BF2B2DC15D0097DA88 /* SpeechSynthExtService.swift */,
+				65D189C12B2DD5D40097DA88 /* ChatBubbles.swift */,
 			);
 			path = "TestApp Watch App";
 			sourceTree = "<group>";
@@ -310,7 +332,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				65C574C62AC718E4006AEBB8 /* ContentView.swift in Sources */,
+				65188AA02B2C83D20061E0CF /* PressActions.swift in Sources */,
+				6502B43A2B23103B007FA7F3 /* SpeechSynthIntService.swift in Sources */,
+				65D189C22B2DD5D40097DA88 /* ChatBubbles.swift in Sources */,
 				65C574C42AC718E4006AEBB8 /* TestAppApp.swift in Sources */,
+				6502B43C2B231062007FA7F3 /* ConvAgentService.swift in Sources */,
+				65FDFE032B2341AD00CDF5C0 /* SpeechRecService.swift in Sources */,
+				65D189C02B2DC15D0097DA88 /* SpeechSynthExtService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -471,12 +500,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TestApp Watch App/TestApp Watch AppDebug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestApp Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = U66B5L4S6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TestApp-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TestApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -507,6 +538,7 @@
 				DEVELOPMENT_TEAM = U66B5L4S6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TestApp-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TestApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;

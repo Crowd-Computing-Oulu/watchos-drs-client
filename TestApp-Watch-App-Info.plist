@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<string></string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>We need access to your heart rate data to provide personalized health and fitness insights.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>api.szab.eu</key>
+			<string></string>
+		</dict>
+	</dict>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Need microphone access for uploading audio</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Need location access for updating nearby friends</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app will use your location to show features near you.</string>
+</dict>
+</plist>

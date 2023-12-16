@@ -14,4 +14,8 @@ struct TestApp_Watch_AppApp: App {
             ContentView()
         }
     }
+    
+//    static func main() {
+//        
+//    }
 }
