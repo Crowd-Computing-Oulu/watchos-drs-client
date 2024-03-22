@@ -7,4 +7,4 @@ Part of [Dániel Szabó](https://github.com/szabodanika)'s Master's Thesis.
 
 Other parts:
 - [Docker Robot Server (DRS)](https://github.com/Crowd-Computing-Oulu/drs)
-- Pepper DRS Client (soon)
+- [Pepper Robot DRS Client](https://github.com/Crowd-Computing-Oulu/pepper-drs-client)
